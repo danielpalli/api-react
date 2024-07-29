@@ -32,6 +32,10 @@ export const router = createBrowserRouter([
         path: '*',
         element: <Navigate to={menuRoutes[0].to} />,
       },
+      {
+        path: '',
+        element:  <Navigate to={menuRoutes[0].to} />,
+      }
     ],
   },
 ]);

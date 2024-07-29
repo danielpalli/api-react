@@ -1,1 +1,0 @@
-export * from './use-case/weather.use-case';
